@@ -1,10 +1,13 @@
 <?php
+
 /**
- *  Copyright MediaCT. All rights reserved.
- *  https://www.mediact.nl
+ * Copyright © Youwe. All rights reserved.
+ * https://www.youweagency.com
  */
 
-namespace Mediact\ComposerUnclogPlugin\Tests;
+declare(strict_types=1);
+
+namespace Youwe\ComposerUnclogPlugin\Tests;
 
 use Composer\Composer;
 use Composer\Config;
@@ -13,11 +16,11 @@ use Composer\Package\Link;
 use Composer\Package\Package;
 use Composer\Plugin\CommandEvent;
 use Composer\Plugin\PluginEvents;
-use Mediact\ComposerUnclogPlugin\Plugin;
+use Youwe\ComposerUnclogPlugin\Plugin;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Mediact\ComposerUnclogPlugin\Plugin
+ * @coversDefaultClass \Youwe\ComposerUnclogPlugin\Plugin
  */
 class PluginTest extends TestCase
 {
