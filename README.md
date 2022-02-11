@@ -9,7 +9,7 @@ The plugin hooks in on existing composer commands.
 The package can be installed with:
 
 ```
-composer require mediact/composer-unclog-plugin -dev
+composer require youwe/composer-unclog-plugin -dev
 ```
 
 # Configuration
