@@ -16,8 +16,8 @@ use Composer\Package\Link;
 use Composer\Package\Package;
 use Composer\Plugin\CommandEvent;
 use Composer\Plugin\PluginEvents;
-use Youwe\ComposerUnclogPlugin\Plugin;
 use PHPUnit\Framework\TestCase;
+use Youwe\ComposerUnclogPlugin\Plugin;
 
 /**
  * @coversDefaultClass \Youwe\ComposerUnclogPlugin\Plugin

@@ -7,8 +7,8 @@
     ],
     "authors": [
         {
-            "name": "MediaCT B.V.",
-            "email": "contact@youweagency.com"
+            "name": "Youwe",
+            "email": "info@youweagency.com"
         },
         {
             "name": "Marcel Frankruijter",
@@ -17,8 +17,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.1",
-        "composer-plugin-api": "^1.1 || ^2.0"
+        "composer-plugin-api": "^1.1 || ^2.0",
+        "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "@stable"
@@ -42,9 +42,6 @@
     "archive": {
         "exclude": [
             "/phpunit.xml",
-            "/phpmd.xml",
-            "/phpstan.neon",
-            "/phpcs.xml",
             "/.gitignore",
             "/tests"
         ]
