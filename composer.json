@@ -1,5 +1,5 @@
 {
-    "name": "mediact/composer-unclog-plugin",
+    "name": "youwe/composer-unclog-plugin",
     "description": "Shows warnings if you can optimise your composer files even further.",
     "type": "composer-plugin",
     "license": [
@@ -7,8 +7,8 @@
     ],
     "authors": [
         {
-            "name": "MediaCT B.V.",
-            "email": "contact@mediact.nl"
+            "name": "Youwe",
+            "email": "info@youweagency.com"
         },
         {
             "name": "Marcel Frankruijter",
@@ -17,38 +17,31 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.1",
-        "composer-plugin-api": "^1.1 || ^2.0"
+        "composer-plugin-api": "^1.1 || ^2.0",
+        "php": "^7.1"
     },
     "require-dev": {
-        "mediact/testing-suite": "@stable",
-        "mediact/coding-standard-magento2": "@stable"
+        "phpunit/phpunit": "@stable"
     },
     "autoload": {
         "psr-4": {
-            "Mediact\\ComposerUnclogPlugin\\": "src/"
+            "Youwe\\ComposerUnclogPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mediact\\ComposerUnclogPlugin\\Tests\\": "tests"
+            "Youwe\\ComposerUnclogPlugin\\Tests\\": "tests"
         }
     },
     "config": {
         "sort-packages": true
     },
     "extra": {
-        "grumphp": {
-            "config-default-path": "vendor/mediact/testing-suite/config/default/grumphp.yml"
-        },
-        "class": "Mediact\\ComposerUnclogPlugin\\Plugin"
+        "class": "Youwe\\ComposerUnclogPlugin\\Plugin"
     },
     "archive": {
         "exclude": [
             "/phpunit.xml",
-            "/phpmd.xml",
-            "/phpstan.neon",
-            "/phpcs.xml",
             "/.gitignore",
             "/tests"
         ]

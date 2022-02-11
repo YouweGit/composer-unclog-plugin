@@ -1,10 +1,13 @@
 <?php
+
 /**
- *  Copyright MediaCT. All rights reserved.
- *  https://www.mediact.nl
+ * Copyright © Youwe. All rights reserved.
+ * https://www.youweagency.com
  */
 
-namespace Mediact\ComposerUnclogPlugin;
+declare(strict_types=1);
+
+namespace Youwe\ComposerUnclogPlugin;
 
 use Composer\Composer;
 use Composer\Config;
